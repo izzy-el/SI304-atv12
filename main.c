@@ -12,8 +12,11 @@ int main() {
 	scanf("Digite o valor de a: %f", &a);
 	scanf("Digite o valor de b: %f", &b);
 
-	printf("Hello World!\n");
-
+	printf("Soma: %.2f\n", soma(a, b));
+	printf("Sub: %.2f\n", subtracao(a, b));
+	printf("Mult: %.2f\n", mult(a, b));
+	printf("Div: %.2f\n", divisao(a, b));
+	
 	return 0;
 }
 
