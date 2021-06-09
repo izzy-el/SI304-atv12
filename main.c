@@ -2,6 +2,7 @@
 
 float subtracao(float a, float b);
 float soma();
+float multi(float a, float b);
 
 int main() {
 	printf("Hello World!\n");
@@ -16,4 +17,8 @@ float subtracao(float a, float b){
 
 float soma(float a, float b) {
 	return a + b;
+}
+
+float mult(float a, float b){
+	return a * b;
 }
